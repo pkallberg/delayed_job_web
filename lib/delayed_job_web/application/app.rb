@@ -35,11 +35,6 @@ class DelayedJobWeb < Sinatra::Base
   def tabs
     [
       {:name => 'Overview', :path => '/overview'},
-      {:name => 'Enqueued', :path => '/enqueued'},
-      {:name => 'Working', :path => '/working'},
-      {:name => 'Pending', :path => '/pending'},
-      {:name => 'Failed', :path => '/failed'},
-      {:name => 'Stats', :path => '/stats'}
     ]
   end
 
